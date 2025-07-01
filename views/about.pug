@@ -1,0 +1,25 @@
+extends base.pug
+
+block scripts
+    script
+        include ../static/script.js
+
+block style
+    style
+        include ../static/style.css
+        include ../static/styleContact.css
+        include ../static/styleAbout.css
+
+block content
+    div.about-container
+        h1.page-title About Us
+        h2.welcome-heading Welcome to HDA (Harmony Dance Academy)!
+        p.welcome-para At HDA Dance Academy, we love sharing the joy of dance. We help students of all ages discover their passion for movement, build confidence, and express themselves creatively. Dance is more than just steps—it's about fun, friendship, fitness, and feeling free. Our welcoming studio is a place where everyone can grow, learn, and truly shine.
+
+        h2.section-heading Why Choose Us?
+        ul.benefits-list
+            li.benefit-item Friendly, professional instructors who love to teach
+            li.benefit-item Fun, positive, and inclusive learning environment
+            li.benefit-item Classes for kids, teens, and adults of all skill levels
+            li.benefit-item Affordable fees with flexible class times
+            li.benefit-item Performance opportunities to show what you’ve learned

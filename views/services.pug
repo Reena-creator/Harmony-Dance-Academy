@@ -1,0 +1,25 @@
+extends base.pug
+
+block scripts 
+    script
+        include ../static/script.js
+
+block style 
+    style 
+        include ../static/style.css 
+        include ../static/styleServices.css 
+
+block content 
+    div.services-container
+        h1.page-title Our Services
+        p.intro-text At HDA Dance Academy, we offer a range of dance programs to suit all ages, skill levels, and interests. Whether you want to learn for fun, fitness, or performance, we have the right class for you.
+
+        h2.section-heading What We Offer
+        ul.services-list
+            li.service-item Kids Dance Classes – Fun, energetic sessions to build coordination and confidence.
+            li.service-item Teen & Adult Dance – Hip Hop, Contemporary, Bollywood, and more for all skill levels.
+            li.service-item Fitness Dance – Burn calories while dancing to great music in our high-energy classes.
+            li.service-item Performance Coaching – Personalized guidance for competitions and stage shows.
+            li.service-item Private Lessons – One-on-one training tailored to your goals.
+        
+        p.call-to-action Ready to join the dance? #[a(href="/contact") Contact us] to learn more or book your class today!

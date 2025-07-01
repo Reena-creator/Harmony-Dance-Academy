@@ -1,0 +1,65 @@
+doctype html 
+html 
+    title Reena Dance Academy
+    head 
+        style 
+            include ../static/style.css 
+    body 
+        //- h1 My Site 
+        //- p Welcome to my super lame site.
+        //- nav#navbar.top.firstclass.secondclass
+        nav#navbar 
+            ul
+                #logo 
+                    img(src="/static/images/logo.jpg")
+                    div  HDA
+                li #[a(href="/") Home] 
+                li #[a(href="/about") About]
+                li #[a(href="/services") Services]
+                li #[a(href="/classinfo") Class Info]
+                li #[a(href="/contact") Contact Us]
+        section#introSection 
+            div Welcome to Reena'sDance Academy
+            div.small Eat Dance Sleep Repeat
+        
+        section#missionSection 
+            h2 Our Mission
+            .card 
+                h3 Dance Perfection
+                .card-box 
+                    .card-img 
+                        img(src="/static/images/img1.webp")
+                    .card-content 
+                        p This is the best dance academy of the universe
+            .card 
+                h3 Dance the way you like
+                .card-box 
+                    .card-img 
+                        img(src="/static/images/img2.jpg")
+                    .card-content 
+                        p This is the best dance academy of the universe
+            .card 
+                h3 Live the Dance
+                .card-box 
+                    .card-img 
+                        img(src="/static/images/img4.jpg")
+                    .card-content 
+                        p This is the best dance academy of the universe
+
+        section#sponsorsSection 
+            h2 Our sponsors
+            #sponsors 
+                .sp 
+                    img(src="/static/images/img8.png", alt="Sponsor Image", class="spImage")
+                .sp 
+                    img(src="/static/images/img7.png", alt="Sponsor Image", class="spImage")
+                .sp 
+                    img(src="/static/images/img6.webp", alt="Sponsor Image", class="spImage")
+                .sp 
+                    img(src="/static/images/img5.webp", alt="Sponsor Image", class="spImage")
+        
+        footer#footer
+            | Copyright © 2025 ReenaDanceAcademy.com | All rights reserved
+             
+        script 
+            include ../static/script.js 

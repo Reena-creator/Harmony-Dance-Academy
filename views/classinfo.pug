@@ -1,0 +1,30 @@
+extends base.pug
+
+block scripts
+    script
+        include ../static/script.js
+
+block style
+    style
+        include ../static/style.css
+        include ../static/styleClassInfo.css
+
+block content
+    div.classinfo-container
+        h1.page-title Class Information
+        p.intro-text At HDA Dance Academy, we believe everyone deserves a chance to dance. Here’s how our classes are organized so you can find the perfect fit.
+
+        h2.section-heading Class Levels
+        ul.levels-list
+            li.level-item Beginners – Learn the basics, build confidence, and have fun!
+            li.level-item Intermediate – Improve technique and explore new styles.
+            li.level-item Advanced – Challenge yourself and refine your skills for performance.
+
+        h2.section-heading Age Groups
+        ul.age-list
+            li.age-item Kids (4–10 years) – Playful, engaging, and fun lessons.
+            li.age-item Teens (11–17 years) – Energetic, creative, and social classes.
+            li.age-item Adults (18+) – Fitness, technique, and stress-relief through dance.
+
+        h2.section-heading Timings & Schedule
+        p.schedule-text We offer classes throughout the week with flexible timings to suit busy schedules. Morning, evening, and weekend slots available. Please #[a(href="/contact") contact us] for the latest schedule and to book your spot!
