@@ -1,4 +1,4 @@
-## 💃🏻Harmony Dance Academy Website
+## 💃🏻 Harmony Dance Academy Website
 Welcome to the official website project for **Harmony Dance Academy** – a platform designed to showcase our dance classes, services, and let new students reach out to us with ease.
 
 This project uses **Node.js**, **Express**, **Pug**, and **MongoDB** to build a complete, dynamic website with form submissions saved to a database.
@@ -36,6 +36,7 @@ project/
 │
 └── app.js              # Express server
 ```
+---
 ## 💻 How to Run Locally
 1. **Clone the repository**
  ```bash
@@ -57,6 +58,7 @@ node app.js
  ```bash
 (http://localhost:8000)
 ```
+---
 ## 🗄️ Database
 MongoDB Database: `contactDance`
 Collection: `contacts`
@@ -70,21 +72,37 @@ Fields stored:
 
 ✅ Submissions from the Contact Us form are saved to this collection.
 
+---
 ## 📸 Screenshots
 **Home Page**
+
 ![Homepage Screenshot](screenshots/Screenshot1.png)
+
+
 **About Us Page**
+
 ![About Us](screenshots/Screenshot2.png)
+
 **Contact Us Page**
+
 ![Contact Us](screenshots/Screenshot3.png)
+
 **Data saved successfully**
+
 ![Data saved successfully](screenshots/Screenshot4.png)
+
 **MongoDB folder**
+
 ![MongoDB](screenshots/Screenshot5.png)
 
+---
 ## 🙋‍♀️ About Me
 Reena Meena
 Student at IIT Indore | Passionate about coding and web development
 🌟 This project combines my love for wb development, clean UI design, and programming.
+
+---
 ## 📄 License
 This project is open-source and available under the MIT License.
+
+---
